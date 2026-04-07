@@ -7,6 +7,9 @@ export const models = [
   { id: "claude-haiku-4-6", label: "Claude Haiku 4.6" },
   { id: "claude-sonnet-4-5-20250929", label: "Claude Sonnet 4.5" },
   { id: "claude-haiku-4-5-20251001", label: "Claude Haiku 4.5" },
+  { id: "us.anthropic.claude-opus-4-6-v1", label: "Bedrock Opus 4.6" },
+  { id: "us.anthropic.claude-sonnet-4-6", label: "Bedrock Sonnet 4.6" },
+  { id: "us.anthropic.claude-haiku-4-5-20251001-v1:0", label: "Bedrock Haiku 4.5" },
 ];
 
 export const agentConfigurationDoc = `# claude_local agent configuration
